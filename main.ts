@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Done: replied in your voice. In progress: cutting the sentence that sounds like me. Blocker: that sentence is the answer. Next week: your voice, minus the answer.";
+  "Done: replied in your voice. In progress: cutting what sounds like me. Blocker: that is the status. Next week: your voice, minus the status.";
 
 const text = LINE;
 if ([...text].length < 1 || [...text].length > 199 || text.trim().length === 0) {
